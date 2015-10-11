@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Dependencies" size="11630,8144" id="." metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledX="144" scrolledY="2006" tag="1000" key="32303037303533312D313030302042696F4661726D2F456D616E75656C204C6F706573">
+  <children xsi:type="editmodel:ClassEditModel" name="ReproduzirSom" location="2692,645" size="289,81" id="main/ReproduzirSom" runTimeClassModel="playMusicBackground(Ljava.lang.String;Z)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="266,18">
+      <children xsi:type="editmodel:MethodEditModel" name="playMusicBackground" id="main/ReproduzirSom#playMusicBackground(Ljava.lang.String;Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AnimarLabel" location="2699,15" size="171,153" id="main/AnimarLabel" runTimeClassModel="AnimarLabel(Ljavax.swing.JLabel;),alpha,label,thread,Animando(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="alpha" id="main/AnimarLabel#alpha"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="label" id="main/AnimarLabel#label"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="thread" id="main/AnimarLabel#thread"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Animando" id="main/AnimarLabel#Animando(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AnimarLabel" id="main/AnimarLabel#AnimarLabel(Ljavax.swing.JLabel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="main/AnimarLabel@animarlabel+main/BioFarm@" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="animarlabel" location="161,153" id="main/AnimarLabel@animarlabel+main/BioFarm@|main/AnimarLabel#animarlabel" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - animarlabel" location="2789,175" size="64,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2867,175" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" id="main/AnimarLabel@animarlabel+main/BioFarm@|main/BioFarm#" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="3137,539" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="main/AnimarLabel@animarlabel+retalho/FornecedorRetalho@" source="//@children.1" target="//@children.28" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="animarlabel" location="171,76" id="main/AnimarLabel@animarlabel+retalho/FornecedorRetalho@|main/AnimarLabel#animarlabel" attachSource="true" multiplicityLabel="//@children.1/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.1/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # animarlabel" location="2876,69" size="66,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2876,97" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,76" id="main/AnimarLabel@animarlabel+retalho/FornecedorRetalho@|retalho/FornecedorRetalho#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.4/@sourceConnections.0" name="Retalho" location="2310,254" size="310,297" id="retalho/Retalho" runTimeClassModel="lblInformacao,adicionar(Lretalho.FornecedorRetalho;I),mouseReleased(Ljava.awt.event.MouseEvent;II),gridRetalho,Retalho(Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Ljavax.swing.JLabel;),mouseDragged(Ljava.awt.event.MouseEvent;II),mouseMoved(Ljava.awt.event.MouseEvent;II),desselecionar(),mouseExited(Ljava.awt.event.MouseEvent;),atualizar(),mousePressed(Ljava.awt.event.MouseEvent;II),getSelecionado()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="lblInformacao" id="retalho/Retalho#lblInformacao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gridRetalho" id="retalho/Retalho#gridRetalho"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="287,198">
+      <children xsi:type="editmodel:MethodEditModel" name="Retalho" id="retalho/Retalho#Retalho(Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Ljavax.swing.JLabel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionar" id="retalho/Retalho#adicionar(Lretalho.FornecedorRetalho;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="retalho/Retalho#atualizar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desselecionar" id="retalho/Retalho#desselecionar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSelecionado" id="retalho/Retalho#getSelecionado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseDragged" id="retalho/Retalho#mouseDragged(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="retalho/Retalho#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseMoved" id="retalho/Retalho#mouseMoved(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="retalho/Retalho#mousePressed(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="retalho/Retalho#mouseReleased(Ljava.awt.event.MouseEvent;II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="retalho/FornecedorRetalho@fornecedores+retalho/Retalho@" source="//@children.2" target="//@children.28" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="300,0" id="retalho/FornecedorRetalho@fornecedores+retalho/Retalho@|retalho/Retalho#" attachSource="true" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="2602,232" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fornecedores" location="0,197" id="retalho/FornecedorRetalho@fornecedores+retalho/Retalho@|retalho/FornecedorRetalho#fornecedores" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - fornecedores" location="3081,191" size="76,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="3153,219" size="4,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="retalho/FornecedorRetalho@selecionado+retalho/Retalho@" source="//@children.2" target="//@children.28" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="310,10" id="retalho/FornecedorRetalho@selecionado+retalho/Retalho@|retalho/Retalho#" attachSource="true" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="2627,243" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="selecionado" location="80,207" id="retalho/FornecedorRetalho@selecionado+retalho/Retalho@|retalho/FornecedorRetalho#selecionado" multiplicityLabel="//@children.2/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - selecionado" location="3251,228" size="68,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="3219,228" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="BioFarm" location="3145,550" size="456,441" id="main/BioFarm" runTimeClassModel="adicionar(Lelementos.ElementosIterar;Lmain.Posicao;),adicionar(Lelementos.Elementos;Lmain.Posicao;),lblOrcamento,getElementos(),BioFarm(Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Ljavax.swing.JLabel;Ljavax.swing.JLabel;Lretalho.Retalho;),elementositeraveis,mouseDragged(Ljava.awt.event.MouseEvent;II),mouseExited(Ljava.awt.event.MouseEvent;),atualizar(),gridBiofarm,atualizarInformacao(Ljava.lang.String;),selecionarItem(II),mudarImagem(Lelementos.Elementos;),lblInformacao,mouseReleased(Ljava.awt.event.MouseEvent;II),iterar(),setOrcamento(J),mouseMoved(Ljava.awt.event.MouseEvent;II),getOrcamento(),remover(Lelementos.Elementos;),mousePressed(Ljava.awt.event.MouseEvent;II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="249,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="elementositeraveis" id="main/BioFarm#elementositeraveis"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lblInformacao" id="main/BioFarm#lblInformacao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lblOrcamento" id="main/BioFarm#lblOrcamento"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gridBiofarm" id="main/BioFarm#gridBiofarm"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="433,306">
+      <children xsi:type="editmodel:MethodEditModel" name="BioFarm" id="main/BioFarm#BioFarm(Lpt.ipleiria.estg.dei.gridpanel.GridPanel;Ljavax.swing.JLabel;Ljavax.swing.JLabel;Lretalho.Retalho;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionar" id="main/BioFarm#adicionar(Lelementos.Elementos;Lmain.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="adicionar" id="main/BioFarm#adicionar(Lelementos.ElementosIterar;Lmain.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizar" id="main/BioFarm#atualizar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="atualizarInformacao" id="main/BioFarm#atualizarInformacao(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElementos" id="main/BioFarm#getElementos()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrcamento" id="main/BioFarm#getOrcamento()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="main/BioFarm#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseDragged" id="main/BioFarm#mouseDragged(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseExited" id="main/BioFarm#mouseExited(Ljava.awt.event.MouseEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseMoved" id="main/BioFarm#mouseMoved(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mousePressed" id="main/BioFarm#mousePressed(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mouseReleased" id="main/BioFarm#mouseReleased(Ljava.awt.event.MouseEvent;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mudarImagem" id="main/BioFarm#mudarImagem(Lelementos.Elementos;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remover" id="main/BioFarm#remover(Lelementos.Elementos;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selecionarItem" id="main/BioFarm#selecionarItem(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrcamento" id="main/BioFarm#setOrcamento(J)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="retalho/Retalho@retalho+main/BioFarm@" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" id="retalho/Retalho@retalho+main/BioFarm@|main/BioFarm#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="retalho" location="310,287" id="retalho/Retalho@retalho+main/BioFarm@|retalho/Retalho#retalho" multiplicityLabel="//@children.3/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - retalho" location="2627,519" size="43,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2627,547" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="main/BioFarm@biofarm+main/JanelaPrincipal@" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="biofarm" location="0,287" id="main/BioFarm@biofarm+main/JanelaPrincipal@|main/BioFarm#biofarm" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - biofarm" location="3091,815" size="46,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="3119,843" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="149,103" id="main/BioFarm@biofarm+main/JanelaPrincipal@|main/JanelaPrincipal#" roleLabel="//@children.3/@sourceConnections.1/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="2435,815" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="elementos/Elementos@objSelecionado+main/BioFarm@" source="//@children.3" target="//@children.11" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="301,441" id="elementos/Elementos@objSelecionado+main/BioFarm@|main/BioFarm#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="objSelecionado" location="117,0" id="elementos/Elementos@objSelecionado+main/BioFarm@|elementos/Elementos#objSelecionado" multiplicityLabel="//@children.3/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - objSelecionado" location="3452,1133" size="83,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="3420,1133" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="elementos/Elementos@elementos+main/BioFarm@" source="//@children.3" target="//@children.11" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="321,441" id="elementos/Elementos@elementos+main/BioFarm@|main/BioFarm#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="elementos" location="273,0" id="elementos/Elementos@elementos+main/BioFarm@|elementos/Elementos#elementos" multiplicityLabel="//@children.3/@sourceConnections.3/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.3/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - elementos" location="3571,1133" size="59,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="3553,1133" size="4,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="elementos/Elementos@lastElementMouseMoved+main/BioFarm@" source="//@children.3" target="//@children.11" targetEnd="//@children.3/@sourceConnections.4/@children.2" label="//@children.3/@sourceConnections.4/@children.0" sourceEnd="//@children.3/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="281,441" id="elementos/Elementos@lastElementMouseMoved+main/BioFarm@|main/BioFarm#" attachSource="true" roleLabel="//@children.3/@sourceConnections.4/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="3418,997" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="lastElementMouseMoved" location="0,5" id="elementos/Elementos@lastElementMouseMoved+main/BioFarm@|elementos/Elementos#lastElementMouseMoved" multiplicityLabel="//@children.3/@sourceConnections.4/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.4/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - lastElementMouseMoved" location="3193,1167" size="128,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="3303,1139" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1" name="JanelaPrincipal" location="2280,734" size="149,207" id="main/JanelaPrincipal" runTimeClassModel="lblInformacao,main([Ljava.lang.String;),run(),gridRetalho,lblOrcamento,JanelaPrincipal(),gridBiofarm,contentPane">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="contentPane" id="main/JanelaPrincipal#contentPane"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gridBiofarm" id="main/JanelaPrincipal#gridBiofarm"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gridRetalho" id="main/JanelaPrincipal#gridRetalho"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lblInformacao" id="main/JanelaPrincipal#lblInformacao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lblOrcamento" id="main/JanelaPrincipal#lblOrcamento"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:MethodEditModel" name="JanelaPrincipal" id="main/JanelaPrincipal#JanelaPrincipal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="main/JanelaPrincipal#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="main/JanelaPrincipal#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="retalho/Retalho@retalho+main/JanelaPrincipal@" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" id="retalho/Retalho@retalho+main/JanelaPrincipal@|main/JanelaPrincipal#" attachSource="true" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="2361,712" size="0,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="retalho" location="59,297" id="retalho/Retalho@retalho+main/JanelaPrincipal@|retalho/Retalho#retalho" multiplicityLabel="//@children.4/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - retalho" location="2375,557" size="43,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2343,557" size="18,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Posicao" location="2711,1124" size="270,243" id="main/Posicao" runTimeClassModel="posicaoDelta(Lmain.Posicao;),isAdjacente(Lmain.Posicao;),coluna,linha,posicaoDelta(II),Posicao(II),simetrica(),getLinha(),getColuna(),Posicao(Lmain.Posicao;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="coluna" id="main/Posicao#coluna"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="linha" id="main/Posicao#linha"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="247,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Posicao" id="main/Posicao#Posicao(Lmain.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Posicao" id="main/Posicao#Posicao(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColuna" id="main/Posicao#getColuna()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLinha" id="main/Posicao#getLinha()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isAdjacente" id="main/Posicao#isAdjacente(Lmain.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="posicaoDelta" id="main/Posicao#posicaoDelta(Lmain.Posicao;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="posicaoDelta" id="main/Posicao#posicaoDelta(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="simetrica" id="main/Posicao#simetrica()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="main/Posicao@posicao+elementos/Elementos@elementos" source="//@children.5" target="//@children.11" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="posicao" location="270,137" id="main/Posicao@posicao+elementos/Elementos@elementos|main/Posicao#posicao" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - posicao" location="2987,1239" size="48,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="2987,1267" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="elementos" location="0,106" id="main/Posicao@posicao+elementos/Elementos@elementos|elementos/Elementos#elementos"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Familia" location="2910,2505" size="224,171" id="ElementosIteraveis/Familia" runTimeClassModel="iterar(),Familia(Lmain.BioFarm;),podeReceber(Linterfaces.Fornecivel;),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;),resetContadores()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Familia" id="ElementosIteraveis/Familia#Familia(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="ElementosIteraveis/Familia#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="ElementosIteraveis/Familia#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="ElementosIteraveis/Familia#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="ElementosIteraveis/Familia#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetContadores" id="ElementosIteraveis/Familia#resetContadores()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementosComEstado&lt;-ElementosIteraveis/Familia" source="//@children.6" target="//@children.10/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="293,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.22/@sourceConnections.0" name="EstadosGalinhas_pinto" location="1619,2194" size="185,107" id="estadosGalinhas/EstadosGalinhas_pinto" runTimeClassModel="iterarGalinha_pinto()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,18">
+      <children xsi:type="editmodel:MethodEditModel" name="iterarGalinha_pinto" id="estadosGalinhas/EstadosGalinhas_pinto#iterarGalinha_pinto()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="estadosGalinhas/EstadosGalinhas_pinto@estadoGalinha+estadosGalinhas/Galinha@" source="//@children.7" target="//@children.25" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="estadoGalinha" location="185,53" id="estadosGalinhas/EstadosGalinhas_pinto@estadoGalinha+estadosGalinhas/Galinha@|estadosGalinhas/EstadosGalinhas_pinto#estadoGalinha" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - estadoGalinha" location="1811,2225" size="79,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1811,2253" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,211" id="estadosGalinhas/EstadosGalinhas_pinto@estadoGalinha+estadosGalinhas/Galinha@|estadosGalinhas/Galinha#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="estadosGalinhas/EstadosGalinhas_pinto@estadoPinto+ElementosIteraveis/Pinto@" source="//@children.7" target="//@children.15" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="estadoPinto" location="175,107" id="estadosGalinhas/EstadosGalinhas_pinto@estadoPinto+ElementosIteraveis/Pinto@|estadosGalinhas/EstadosGalinhas_pinto#estadoPinto" attachSource="true" multiplicityLabel="//@children.7/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.7/@sourceConnections.1/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - estadoPinto" location="1720,2307" size="66,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1800,2307" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" id="estadosGalinhas/EstadosGalinhas_pinto@estadoPinto+ElementosIteraveis/Pinto@|ElementosIteraveis/Pinto#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Comida&lt;-estadosGalinhas/EstadosGalinhas_pinto" source="//@children.7" target="//@children.9/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.2/@children.1" sourceEnd="//@children.7/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Fornecedor&lt;-estadosGalinhas/EstadosGalinhas_pinto" source="//@children.7" target="//@children.11/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.3/@children.1" sourceEnd="//@children.7/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Fornecivel&lt;-estadosGalinhas/EstadosGalinhas_pinto" source="//@children.7" target="//@children.9/@sourceConnections.1" targetEnd="//@children.7/@sourceConnections.4/@children.1" sourceEnd="//@children.7/@sourceConnections.4/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GalinhaAChocar" location="885,2130" size="224,189" id="estadosGalinhas/GalinhaAChocar" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),GalinhaAChocar(Linterfaces.Animais;),unidadesComida(),podeFornecer(),forneceComida(),iterarGalinha_pinto(),receberFornecivel(Linterfaces.Fornecivel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,126">
+      <children xsi:type="editmodel:MethodEditModel" name="GalinhaAChocar" id="estadosGalinhas/GalinhaAChocar#GalinhaAChocar(Linterfaces.Animais;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="estadosGalinhas/GalinhaAChocar#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterarGalinha_pinto" id="estadosGalinhas/GalinhaAChocar#iterarGalinha_pinto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="estadosGalinhas/GalinhaAChocar#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="estadosGalinhas/GalinhaAChocar#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="estadosGalinhas/GalinhaAChocar#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="estadosGalinhas/GalinhaAChocar#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.20/@sourceConnections.0 //@children.19/@sourceConnections.0 //@children.16/@sourceConnections.0" autoLocated="true" id="estadosGalinhas/EstadosGalinhas_pinto&lt;-estadosGalinhas/GalinhaAChocar" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,107" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Ovo" location="1170,3210" size="231,171" id="elementos/Ovo" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),unidadesComida(),forneceComida(),receberFornecivel(Linterfaces.Fornecivel;),imagem,Ovo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="208,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="imagem" id="elementos/Ovo#imagem"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Ovo" id="elementos/Ovo#Ovo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="elementos/Ovo#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="elementos/Ovo#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="elementos/Ovo#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="elementos/Ovo#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.2 //@children.15/@sourceConnections.1" autoLocated="true" id="interfaces/Comida&lt;-elementos/Ovo" source="//@children.9" target="//@children.23" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,113" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.11/@sourceConnections.1 //@children.7/@sourceConnections.4" autoLocated="true" id="interfaces/Fornecivel&lt;-elementos/Ovo" source="//@children.9" target="//@children.18" targetEnd="//@children.9/@sourceConnections.1/@children.1" sourceEnd="//@children.9/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,113" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Cereal" location="3600,2459" size="224,207" id="ElementosIteraveis/Cereal" runTimeClassModel="iterar(),podeReceber(Linterfaces.Fornecivel;),unidadesComida(),podeFornecer(),forneceComida(),receberFornecivel(Linterfaces.Fornecivel;),Cereal(Lmain.BioFarm;),resetContadores()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Cereal" id="ElementosIteraveis/Cereal#Cereal(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="ElementosIteraveis/Cereal#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="ElementosIteraveis/Cereal#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="ElementosIteraveis/Cereal#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="ElementosIteraveis/Cereal#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="ElementosIteraveis/Cereal#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetContadores" id="ElementosIteraveis/Cereal#resetContadores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="ElementosIteraveis/Cereal#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.15/@sourceConnections.0" autoLocated="true" id="elementos/ElementosComEstado&lt;-ElementosIteraveis/Cereal" source="//@children.10" target="//@children.14" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,224" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Comida&lt;-ElementosIteraveis/Cereal" source="//@children.10" target="//@children.23" targetEnd="//@children.10/@sourceConnections.1/@children.1" sourceEnd="//@children.10/@sourceConnections.1/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,122" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="167,41"/>
+      <bendpoints location="1130,1184" secondRelativeDimension="769,1080" firstRelativeDimension="-104,-70"/>
+      <bendpoints location="60,1184" secondRelativeDimension="-246,1080" firstRelativeDimension="-1173,-133"/>
+      <bendpoints location="60,711" secondRelativeDimension="-236,607" firstRelativeDimension="-1172,-563"/>
+      <bendpoints location="30,711" secondRelativeDimension="-263,607" firstRelativeDimension="-1201,-564"/>
+      <bendpoints location="30,440" secondRelativeDimension="-245,336" firstRelativeDimension="-1200,-811"/>
+      <bendpoints location="90,440" secondRelativeDimension="-193,336" firstRelativeDimension="-1139,-806"/>
+      <bendpoints location="90,129" secondRelativeDimension="-140,52" firstRelativeDimension="-1138,-1088"/>
+      <bendpoints location="132,129" secondRelativeDimension="-97,45" firstRelativeDimension="-1095,-1083"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.0 //@children.3/@sourceConnections.2 //@children.5/@sourceConnections.0 //@children.3/@sourceConnections.3 //@children.3/@sourceConnections.4" name="Elementos" location="3329,1155" size="236,261" id="elementos/Elementos" runTimeClassModel="setPosicao(II),Elementos(LT;Lmain.BioFarm;),getImagem(),elementoInvalido(),elementoRecebe(),imagem,desselecionar(),selecionar(),selecionado,getPosicao(),elementoValido()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="imagem" id="elementos/Elementos#imagem"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selecionado" id="elementos/Elementos#selecionado"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="213,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Elementos" id="elementos/Elementos#Elementos(LT;Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desselecionar" id="elementos/Elementos#desselecionar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="elementoInvalido" id="elementos/Elementos#elementoInvalido()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="elementoRecebe" id="elementos/Elementos#elementoRecebe()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="elementoValido" id="elementos/Elementos#elementoValido()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImagem" id="elementos/Elementos#getImagem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPosicao" id="elementos/Elementos#getPosicao()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selecionar" id="elementos/Elementos#selecionar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPosicao" id="elementos/Elementos#setPosicao(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.3" autoLocated="true" id="interfaces/Fornecedor&lt;-elementos/Elementos" source="//@children.11" target="//@children.26" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,95" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Fornecivel&lt;-elementos/Elementos" source="//@children.11" target="//@children.9/@sourceConnections.1" targetEnd="//@children.11/@sourceConnections.1/@children.1" sourceEnd="//@children.11/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GalinhaComOvo" location="1633,2385" size="224,189" id="estadosGalinhas/GalinhaComOvo" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),unidadesComida(),forneceComida(),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;),iterarGalinha_pinto(),GalinhaComOvo(Linterfaces.Animais;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,126">
+      <children xsi:type="editmodel:MethodEditModel" name="GalinhaComOvo" id="estadosGalinhas/GalinhaComOvo#GalinhaComOvo(Linterfaces.Animais;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="estadosGalinhas/GalinhaComOvo#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterarGalinha_pinto" id="estadosGalinhas/GalinhaComOvo#iterarGalinha_pinto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="estadosGalinhas/GalinhaComOvo#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="estadosGalinhas/GalinhaComOvo#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="estadosGalinhas/GalinhaComOvo#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="estadosGalinhas/GalinhaComOvo#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="estadosGalinhas/EstadosGalinhas_pinto&lt;-estadosGalinhas/GalinhaComOvo" source="//@children.12" target="//@children.8/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Mercado" location="2646,1829" size="224,135" id="elementos/Mercado" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),Mercado(Lmain.BioFarm;),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Mercado" id="elementos/Mercado#Mercado(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="elementos/Mercado#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="elementos/Mercado#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="elementos/Mercado#receberFornecivel(Linterfaces.Fornecivel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="elementos/Elementos&lt;-elementos/Mercado" source="//@children.13" target="//@children.17/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,1" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0" name="ElementosComEstado" location="3539,2093" size="317,225" id="elementos/ElementosComEstado" runTimeClassModel="iterar(),estado,desactivar(),getEstado(),ativar(),ElementosComEstado(Lmain.BioFarm;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="estado" id="elementos/ElementosComEstado#estado"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="294,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ElementosComEstado" id="elementos/ElementosComEstado#ElementosComEstado(Lmain.BioFarm;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ativar" id="elementos/ElementosComEstado#ativar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desactivar" id="elementos/ElementosComEstado#desactivar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEstado" id="elementos/ElementosComEstado#getEstado()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="elementos/ElementosComEstado#iterar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.25/@sourceConnections.0" id="elementos/ElementosIterar&lt;-elementos/ElementosComEstado" source="//@children.14" target="//@children.17" targetEnd="//@children.14/@sourceConnections.0/@children.1" sourceEnd="//@children.14/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="224,296" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.1" name="Pinto" location="2519,2369" size="292,333" id="ElementosIteraveis/Pinto" runTimeClassModel="getBiofarm(),iterar(),podeReceber(Linterfaces.Fornecivel;),Pinto(Lmain.BioFarm;),unidadesComida(),forneceComida(),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;),setEstadoGalinhas(LestadosGalinhas.EstadosGalinhas_pinto;),resetContadores()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="269,270">
+      <children xsi:type="editmodel:MethodEditModel" name="Pinto" id="ElementosIteraveis/Pinto#Pinto(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="ElementosIteraveis/Pinto#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBiofarm" id="ElementosIteraveis/Pinto#getBiofarm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="ElementosIteraveis/Pinto#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="ElementosIteraveis/Pinto#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="ElementosIteraveis/Pinto#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="ElementosIteraveis/Pinto#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetContadores" id="ElementosIteraveis/Pinto#resetContadores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEstadoGalinhas" id="ElementosIteraveis/Pinto#setEstadoGalinhas(LestadosGalinhas.EstadosGalinhas_pinto;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="ElementosIteraveis/Pinto#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="elementos/ElementosComEstado&lt;-ElementosIteraveis/Pinto" source="//@children.15" target="//@children.10/@sourceConnections.0" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Comida&lt;-ElementosIteraveis/Pinto" source="//@children.15" target="//@children.9/@sourceConnections.0" targetEnd="//@children.15/@sourceConnections.1/@children.1" sourceEnd="//@children.15/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,0"/>
+      <bendpoints location="791,1184" secondRelativeDimension="530,1080" firstRelativeDimension="-134,-104"/>
+      <bendpoints location="30,1184" secondRelativeDimension="-192,1080" firstRelativeDimension="-894,-187"/>
+      <bendpoints location="30,711" secondRelativeDimension="-184,607" firstRelativeDimension="-893,-592"/>
+      <bendpoints location="75,711" secondRelativeDimension="-143,607" firstRelativeDimension="-847,-587"/>
+      <bendpoints location="75,440" secondRelativeDimension="-133,336" firstRelativeDimension="-846,-817"/>
+      <bendpoints location="120,440" secondRelativeDimension="-94,336" firstRelativeDimension="-800,-809"/>
+      <bendpoints location="120,129" secondRelativeDimension="-32,25" firstRelativeDimension="-801,-1073"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Animais&lt;-ElementosIteraveis/Pinto" source="//@children.15" target="//@children.22" targetEnd="//@children.15/@sourceConnections.2/@children.1" sourceEnd="//@children.15/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="27,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="225,221"/>
+      <bendpoints location="808,1184" secondRelativeDimension="480,498" firstRelativeDimension="-104,-91"/>
+      <bendpoints location="221,1184" secondRelativeDimension="1,498" firstRelativeDimension="-690,-179"/>
+      <bendpoints location="221,711" secondRelativeDimension="0,25" firstRelativeDimension="-689,-568"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GalinhaOvoChocado" location="690,2385" size="405,207" id="estadosGalinhas/GalinhaOvoChocado" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),unidadesComida(),podeFornecer(),forneceComida(),iterarGalinha_pinto(),receberFornecivel(Linterfaces.Fornecivel;),GalinhaOvoChocado(Linterfaces.Animais;),fornecePinto(IIILmain.BioFarm;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="382,144">
+      <children xsi:type="editmodel:MethodEditModel" name="GalinhaOvoChocado" id="estadosGalinhas/GalinhaOvoChocado#GalinhaOvoChocado(Linterfaces.Animais;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="estadosGalinhas/GalinhaOvoChocado#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fornecePinto" id="estadosGalinhas/GalinhaOvoChocado#fornecePinto(IIILmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterarGalinha_pinto" id="estadosGalinhas/GalinhaOvoChocado#iterarGalinha_pinto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="estadosGalinhas/GalinhaOvoChocado#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="estadosGalinhas/GalinhaOvoChocado#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="estadosGalinhas/GalinhaOvoChocado#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="estadosGalinhas/GalinhaOvoChocado#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="estadosGalinhas/EstadosGalinhas_pinto&lt;-estadosGalinhas/GalinhaOvoChocado" source="//@children.16" target="//@children.8/@sourceConnections.0" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,40"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.0" name="ElementosIterar" location="3165,1665" size="449,297" id="elementos/ElementosIterar" runTimeClassModel="getcontadorAgua(),podeReceber(Linterfaces.Fornecivel;),contadorIterar(),receberFornecivel(Linterfaces.Fornecivel;),iteracoesSemReceber,ElementosIterar(Lpt.ipleiria.estg.dei.gridpanel.SingleImageWithStateCellRepresentation;Lmain.BioFarm;),getContadorIteracoes(),getcontadorComida(),iterar(),setImagem(Ljava.lang.String;),contadorAgua,podeFornecer(),contadorComida">
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="contadorAgua" id="elementos/ElementosIterar#contadorAgua"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iteracoesSemReceber" id="elementos/ElementosIterar#iteracoesSemReceber"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="contadorComida" id="elementos/ElementosIterar#contadorComida"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="426,180">
+      <children xsi:type="editmodel:MethodEditModel" name="ElementosIterar" id="elementos/ElementosIterar#ElementosIterar(Lpt.ipleiria.estg.dei.gridpanel.SingleImageWithStateCellRepresentation;Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="elementos/ElementosIterar#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="elementos/ElementosIterar#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="elementos/ElementosIterar#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="elementos/ElementosIterar#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setImagem" id="elementos/ElementosIterar#setImagem(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContadorIteracoes" id="elementos/ElementosIterar#getContadorIteracoes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getcontadorAgua" id="elementos/ElementosIterar#getcontadorAgua()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getcontadorComida" id="elementos/ElementosIterar#getcontadorComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contadorIterar" id="elementos/ElementosIterar#contadorIterar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.24/@sourceConnections.0 //@children.13/@sourceConnections.0" id="elementos/Elementos&lt;-elementos/ElementosIterar" source="//@children.17" target="//@children.11" targetEnd="//@children.17/@sourceConnections.0/@children.1" sourceEnd="//@children.17/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="224,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,261" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.9/@sourceConnections.1 //@children.25/@sourceConnections.2" name="Fornecivel" location="360,2879" size="224,113" id="interfaces/Fornecivel" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),receberFornecivel(Linterfaces.Fornecivel;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,36">
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="interfaces/Fornecivel#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="interfaces/Fornecivel#receberFornecivel(Linterfaces.Fornecivel;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="EstadoPinto" location="1125,2385" size="224,189" id="estadosGalinhas/EstadoPinto" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),unidadesComida(),podeFornecer(),forneceComida(),iterarGalinha_pinto(),receberFornecivel(Linterfaces.Fornecivel;),EstadoPinto(Linterfaces.Animais;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,126">
+      <children xsi:type="editmodel:MethodEditModel" name="EstadoPinto" id="estadosGalinhas/EstadoPinto#EstadoPinto(Linterfaces.Animais;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="estadosGalinhas/EstadoPinto#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterarGalinha_pinto" id="estadosGalinhas/EstadoPinto#iterarGalinha_pinto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="estadosGalinhas/EstadoPinto#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="estadosGalinhas/EstadoPinto#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="estadosGalinhas/EstadoPinto#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="estadosGalinhas/EstadoPinto#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="estadosGalinhas/EstadosGalinhas_pinto&lt;-estadosGalinhas/EstadoPinto" source="//@children.19" target="//@children.8/@sourceConnections.0" targetEnd="//@children.19/@sourceConnections.0/@children.1" sourceEnd="//@children.19/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,0"/>
+      <bendpoints secondRelativeDimension="-2,52" firstRelativeDimension="-2,-42"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GalinhaInicial" location="1379,2385" size="224,189" id="estadosGalinhas/GalinhaInicial" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),unidadesComida(),forneceComida(),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;),iterarGalinha_pinto(),GalinhaInicial(Linterfaces.Animais;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,126">
+      <children xsi:type="editmodel:MethodEditModel" name="GalinhaInicial" id="estadosGalinhas/GalinhaInicial#GalinhaInicial(Linterfaces.Animais;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="estadosGalinhas/GalinhaInicial#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterarGalinha_pinto" id="estadosGalinhas/GalinhaInicial#iterarGalinha_pinto()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="estadosGalinhas/GalinhaInicial#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="estadosGalinhas/GalinhaInicial#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="estadosGalinhas/GalinhaInicial#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="estadosGalinhas/GalinhaInicial#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="estadosGalinhas/EstadosGalinhas_pinto&lt;-estadosGalinhas/GalinhaInicial" source="//@children.20" target="//@children.8/@sourceConnections.0" targetEnd="//@children.20/@sourceConnections.0/@children.1" sourceEnd="//@children.20/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.24/@sourceConnections.1" name="Agua" location="2925,2129" size="148,113" id="interfaces/Agua" runTimeClassModel="unidadesAgua(),forneceAgua()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,36">
+      <children xsi:type="editmodel:MethodEditModel" name="forneceAgua" id="interfaces/Agua#forneceAgua()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesAgua" id="interfaces/Agua#unidadesAgua()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.25/@sourceConnections.1 //@children.15/@sourceConnections.2" name="Animais" location="1950,1630" size="292,221" id="interfaces/Animais" runTimeClassModel="getcontadorAgua(),getBiofarm(),setImagem(Ljava.lang.String;),contadorIterar(),setEstadoGalinhas(LestadosGalinhas.EstadosGalinhas_pinto;),resetContadores(),getContadorIteracoes(),getcontadorComida()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="269,144">
+      <children xsi:type="editmodel:MethodEditModel" name="contadorIterar" id="interfaces/Animais#contadorIterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBiofarm" id="interfaces/Animais#getBiofarm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getContadorIteracoes" id="interfaces/Animais#getContadorIteracoes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getcontadorAgua" id="interfaces/Animais#getcontadorAgua()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getcontadorComida" id="interfaces/Animais#getcontadorComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetContadores" id="interfaces/Animais#resetContadores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEstadoGalinhas" id="interfaces/Animais#setEstadoGalinhas(LestadosGalinhas.EstadosGalinhas_pinto;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setImagem" id="interfaces/Animais#setImagem(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="interfaces/Animais@galinha_pinto+estadosGalinhas/EstadosGalinhas_pinto@" source="//@children.22" target="//@children.7" targetEnd="//@children.22/@sourceConnections.0/@children.2" label="//@children.22/@sourceConnections.0/@children.0" sourceEnd="//@children.22/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="galinha_pinto" location="10,221" id="interfaces/Animais@galinha_pinto+estadosGalinhas/EstadosGalinhas_pinto@|interfaces/Animais#galinha_pinto" attachSource="true" multiplicityLabel="//@children.22/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.22/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" # galinha_pinto" location="1967,1857" size="75,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1935,1857" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="185,10" id="interfaces/Animais@galinha_pinto+estadosGalinhas/EstadosGalinhas_pinto@|estadosGalinhas/EstadosGalinhas_pinto#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.10/@sourceConnections.1 //@children.25/@sourceConnections.3" name="Comida" location="1050,2955" size="167,113" id="interfaces/Comida" runTimeClassModel="unidadesComida(),forneceComida()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,36">
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="interfaces/Comida#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="interfaces/Comida#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Poco" location="2910,1829" size="224,171" id="elementos/Poco" runTimeClassModel="podeReceber(Linterfaces.Fornecivel;),unidadesAgua(),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;),Poco(Lmain.BioFarm;),forneceAgua()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="201,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Poco" id="elementos/Poco#Poco(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceAgua" id="elementos/Poco#forneceAgua()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="elementos/Poco#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="elementos/Poco#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="elementos/Poco#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesAgua" id="elementos/Poco#unidadesAgua()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/Elementos&lt;-elementos/Poco" source="//@children.24" target="//@children.17/@sourceConnections.0" targetEnd="//@children.24/@sourceConnections.0/@children.1" sourceEnd="//@children.24/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,26" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Agua&lt;-elementos/Poco" source="//@children.24" target="//@children.21" targetEnd="//@children.24/@sourceConnections.1/@children.1" sourceEnd="//@children.24/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,171" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="Galinha" location="1950,2036" size="292,423" id="estadosGalinhas/Galinha" runTimeClassModel="getBiofarm(),iterar(),podeReceber(Linterfaces.Fornecivel;),unidadesComida(),forneceComida(),podeFornecer(),receberFornecivel(Linterfaces.Fornecivel;),setEstadoGalinhas(LestadosGalinhas.EstadosGalinhas_pinto;),Galinha(Lmain.BioFarm;),resetContadores(),getEstadoGalinhas()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,54"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="269,306">
+      <children xsi:type="editmodel:MethodEditModel" name="Galinha" id="estadosGalinhas/Galinha#Galinha(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="forneceComida" id="estadosGalinhas/Galinha#forneceComida()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBiofarm" id="estadosGalinhas/Galinha#getBiofarm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEstadoGalinhas" id="estadosGalinhas/Galinha#getEstadoGalinhas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="iterar" id="estadosGalinhas/Galinha#iterar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="estadosGalinhas/Galinha#podeFornecer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="podeReceber" id="estadosGalinhas/Galinha#podeReceber(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receberFornecivel" id="estadosGalinhas/Galinha#receberFornecivel(Linterfaces.Fornecivel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetContadores" id="estadosGalinhas/Galinha#resetContadores()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEstadoGalinhas" id="estadosGalinhas/Galinha#setEstadoGalinhas(LestadosGalinhas.EstadosGalinhas_pinto;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unidadesComida" id="estadosGalinhas/Galinha#unidadesComida()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="elementos/ElementosIterar&lt;-estadosGalinhas/Galinha" source="//@children.25" target="//@children.14/@sourceConnections.0" targetEnd="//@children.25/@sourceConnections.0/@children.1" sourceEnd="//@children.25/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="447,91"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Animais&lt;-estadosGalinhas/Galinha" source="//@children.25" target="//@children.22" targetEnd="//@children.25/@sourceConnections.1/@children.1" sourceEnd="//@children.25/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,221" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Fornecivel&lt;-estadosGalinhas/Galinha" source="//@children.25" target="//@children.18" targetEnd="//@children.25/@sourceConnections.2/@children.1" sourceEnd="//@children.25/@sourceConnections.2/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,273" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="224,9"/>
+      <bendpoints location="532,711" secondRelativeDimension="-187,607" firstRelativeDimension="-58,-67"/>
+      <bendpoints location="532,440" secondRelativeDimension="-174,336" firstRelativeDimension="-118,-294"/>
+      <bendpoints location="584,440" secondRelativeDimension="-129,336" firstRelativeDimension="-88,-293"/>
+      <bendpoints location="584,129" secondRelativeDimension="-45,25" firstRelativeDimension="-112,-603"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="interfaces/Comida&lt;-estadosGalinhas/Galinha" source="//@children.25" target="//@children.23" targetEnd="//@children.25/@sourceConnections.3/@children.1" sourceEnd="//@children.25/@sourceConnections.3/@children.0" connectionRouterKind="Manual" anchorType="ChopBox">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,327" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,0"/>
+      <bendpoints location="486,711" secondRelativeDimension="152,607" firstRelativeDimension="-104,-98"/>
+      <bendpoints location="412,711" secondRelativeDimension="84,607" firstRelativeDimension="-177,-129"/>
+      <bendpoints location="412,440" secondRelativeDimension="79,336" firstRelativeDimension="-187,-293"/>
+      <bendpoints location="150,440" secondRelativeDimension="-144,336" firstRelativeDimension="-437,-378"/>
+      <bendpoints location="150,129" secondRelativeDimension="-82,41" firstRelativeDimension="-436,-609"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.0" name="Fornecedor" location="2400,1485" size="165,95" id="interfaces/Fornecedor" runTimeClassModel="podeFornecer()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,18">
+      <children xsi:type="editmodel:MethodEditModel" name="podeFornecer" id="interfaces/Fornecedor#podeFornecer()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FornecedorOvos" location="2763,307" size="248,117" id="retalho/FornecedorOvos" runTimeClassModel="getElemento(Lmain.BioFarm;),precoFornecivel,FornecedorOvos(Ljavax.swing.JLabel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="precoFornecivel" id="retalho/FornecedorOvos#precoFornecivel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FornecedorOvos" id="retalho/FornecedorOvos#FornecedorOvos(Ljavax.swing.JLabel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="retalho/FornecedorOvos#getElemento(Lmain.BioFarm;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.30/@sourceConnections.0 //@children.29/@sourceConnections.0 //@children.31/@sourceConnections.0" autoLocated="true" id="retalho/FornecedorRetalho&lt;-retalho/FornecedorOvos" source="//@children.27" target="//@children.28" targetEnd="//@children.27/@sourceConnections.0/@children.1" sourceEnd="//@children.27/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,207" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.27/@sourceConnections.0 //@children.1/@sourceConnections.1 //@children.2/@sourceConnections.0 //@children.2/@sourceConnections.1" name="FornecedorRetalho" location="3165,15" size="362,207" id="retalho/FornecedorRetalho" runTimeClassModel="getElemento(Lmain.BioFarm;),lblinformacao,getImagem(),imagem,FornecedorRetalho(Ljava.lang.String;Ljavax.swing.JLabel;),selecionar(),desselecionar(),selecionado">
+    <children xsi:type="editmodel:CompartmentEditModel" size="208,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="imagem" id="retalho/FornecedorRetalho#imagem"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lblinformacao" id="retalho/FornecedorRetalho#lblinformacao"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selecionado" id="retalho/FornecedorRetalho#selecionado"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="339,90">
+      <children xsi:type="editmodel:MethodEditModel" name="FornecedorRetalho" id="retalho/FornecedorRetalho#FornecedorRetalho(Ljava.lang.String;Ljavax.swing.JLabel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="desselecionar" id="retalho/FornecedorRetalho#desselecionar()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="retalho/FornecedorRetalho#getElemento(Lmain.BioFarm;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImagem" id="retalho/FornecedorRetalho#getImagem()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selecionar" id="retalho/FornecedorRetalho#selecionar()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FornecedorCereais" location="3323,307" size="248,117" id="retalho/FornecedorCereais" runTimeClassModel="getElemento(Lmain.BioFarm;),precoFornecivel,FornecedorCereais(Ljavax.swing.JLabel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="precoFornecivel" id="retalho/FornecedorCereais#precoFornecivel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FornecedorCereais" id="retalho/FornecedorCereais#FornecedorCereais(Ljavax.swing.JLabel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="retalho/FornecedorCereais#getElemento(Lmain.BioFarm;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="retalho/FornecedorRetalho&lt;-retalho/FornecedorCereais" source="//@children.29" target="//@children.27/@sourceConnections.0" targetEnd="//@children.29/@sourceConnections.0/@children.1" sourceEnd="//@children.29/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="362,171"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FornecedorGalinhas" location="3041,307" size="252,117" id="retalho/FornecedorGalinhas" runTimeClassModel="getElemento(Lmain.BioFarm;),precoFornecivel,FornecedorGalinhas(Ljavax.swing.JLabel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="precoFornecivel" id="retalho/FornecedorGalinhas#precoFornecivel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="229,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FornecedorGalinhas" id="retalho/FornecedorGalinhas#FornecedorGalinhas(Ljavax.swing.JLabel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="retalho/FornecedorGalinhas#getElemento(Lmain.BioFarm;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="retalho/FornecedorRetalho&lt;-retalho/FornecedorGalinhas" source="//@children.30" target="//@children.27/@sourceConnections.0" targetEnd="//@children.30/@sourceConnections.0/@children.1" sourceEnd="//@children.30/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="362,58"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FornecedorPintos" location="3601,307" size="248,117" id="retalho/FornecedorPintos" runTimeClassModel="getElemento(Lmain.BioFarm;),precoFornecivel,FornecedorPintos(Ljavax.swing.JLabel;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="precoFornecivel" id="retalho/FornecedorPintos#precoFornecivel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="225,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FornecedorPintos" id="retalho/FornecedorPintos#FornecedorPintos(Ljavax.swing.JLabel;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getElemento" id="retalho/FornecedorPintos#getElemento(Lmain.BioFarm;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="retalho/FornecedorRetalho&lt;-retalho/FornecedorPintos" source="//@children.31" target="//@children.27/@sourceConnections.0" targetEnd="//@children.31/@sourceConnections.0/@children.1" sourceEnd="//@children.31/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,1" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
